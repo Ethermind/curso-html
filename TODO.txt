@@ -1,0 +1,4 @@
+AGREGAR UN SUBMENU y ver el link con el menu para mobile
+adaptar todo para mobile
+mejorar las cards usando flex
+ver de meter una grilla
