@@ -1,30 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Seguros S.A.</title>
 </head>
-
 <body>
+    <!-- HEADER -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="pages/about.html">Nosotros</a></li>
-                <li><a href="pages/benefit.html">Beneficio</a></li>
-                <li><a href="pages/contact.html">Contacto</a></li>
-                <li><a href="pages/virtual-room.html" target="_blank">Sucursal Virtual</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar bg-body-tertiary  navbar-expand-md navbar-custom">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img class="img-logo" src="assets/images/gc.gif">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/about.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/benefit.html">Beneficio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/contact.html">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/virtual-room.html" target="_blank">Sucursal Virtual</a></li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
+    <!-- MAIN -->
     <main>
         <section>
             <article class="index-main-cards">
                 <div class="index-main-card">
-                    <h2>ELEGI ESTAR SEGURO</h2>
+                    <h1>ELEGI ESTAR SEGURO</h1>
                     <form action="#" method="get" enctype="multipart/form-data">
                         <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas ipsa laboriosam similique
@@ -49,8 +69,8 @@
                 <h2>ENCONTREMOS LA INFORMACION QUE NECESITAS</h2>
 
                 <div class="info-card">
-                    <h3 class="">AUTO</h3>
-                    <h4>Subtitulo</h4>
+                    <h2 class="">AUTO</h2>
+                    <h3>Subtitulo</h3>
                     <p>
                         <!-- <img src="assets/images/no-image.jpg" class="img-64x64"> -->
                         <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
@@ -63,8 +83,8 @@
                 </div>
 
                 <div class="info-card">
-                    <h3>HOGAR</h3>
-                    <h4>Subtitulo</h4>
+                    <h2>HOGAR</h2>
+                    <h3>Subtitulo</h3>
                     <p>
                         <!-- <img src="assets/images/no-image.jpg" class="img-64x64"> -->
                         <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
@@ -78,8 +98,8 @@
                 </div>
 
                 <div class="info-card">
-                    <h3>MOVILIDAD</h3>
-                    <h4>Subtitulo</h4>
+                    <h2>MOVILIDAD</h2>
+                    <h3>Subtitulo</h3>
                     <p>
                         <!-- <img src="assets/images/no-image.jpg" class="img-64x64"> -->
                         <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
@@ -92,8 +112,8 @@
                 </div>
 
                 <div class="info-card">
-                    <h3>MOTO</h3>
-                    <h4>Subtitulo</h4>
+                    <h2>MOTO</h2>
+                    <h3>Subtitulo</h3>
                     <p>
                         <!-- <img src="assets/images/no-image.jpg" class="img-64x64"> -->
                         <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="#currentColor"
@@ -106,8 +126,8 @@
                 </div>
 
                 <div class="info-card">
-                    <h3>VIDA</h3>
-                    <h4>Subtitulo</h4>
+                    <h2>VIDA</h2>
+                    <h3>Subtitulo</h3>
                     <p>
                         <!-- <img src="assets/images/no-image.jpg" class="img-64x64"> -->
                         <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
@@ -121,44 +141,112 @@
             </article>
         </section>
     </main>
+    <!-- FOOTER -->
     <footer>
-        <div class="footer-text">
-            <h5>(c) Copyright 2023 Ethermind Software</h5>
-        </div>
+        <section>
+            <div class="footer-text">
+                <h5>(c) Copyright 2023 Ethermind Software</h5>
+            </div>
 
-        <div class="footer-media">
-            <a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer" class="a-social-network">
-                <!-- <img src="assets/images/no-image.jpg" class="img-32x32"> -->
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
-                    class="bi bi-facebook" viewBox="0 0 16 16">
-                    <path
-                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                </svg>
-            </a>
-        </div>
+            <div class="footer-media">
+                <a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer" class="a-social-network">
+                    <!-- <img src="assets/images/no-image.jpg" class="img-32x32"> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                        class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                    </svg>
+                </a>
+            </div>
 
-        <div class="footer-media">
-            <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer" class="a-social-network">
-                <!-- <img src="assets/images/no-image.jpg" class="img-32x32"> -->
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
-                    class="bi bi-instagram" viewBox="0 0 16 16">
-                    <path
-                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                </svg>
-            </a>
-        </div>
+            <div class="footer-media">
+                <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer" class="a-social-network">
+                    <!-- <img src="assets/images/no-image.jpg" class="img-32x32"> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                        class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                    </svg>
+                </a>
+            </div>
 
-        <div class="footer-media">
-            <a href="http://www.tiktok.com" target="_blank" rel="noopener noreferrer" class="a-social-network">
-                <!-- <img src="assets/images/no-image.jpg" class="img-32x32"> -->
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-tiktok"
-                    viewBox="0 0 16 16">
-                    <path
-                        d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z" />
-                </svg>
-            </a>
-        </div>
+            <div class="footer-media">
+                <a href="http://www.tiktok.com" target="_blank" rel="noopener noreferrer" class="a-social-network">
+                    <!-- <img src="assets/images/no-image.jpg" class="img-32x32"> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-tiktok"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z" />
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+
+
+        <section id="block-footerssn"
+            class="block block-block-content block-block-content88c82d5e-0031-485e-9f1d-6f234c4d909a clearfix">
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item">
+                <div class="container ssn mg-lg-t">
+                    <div class="mg-lg-t mg-lg-b">
+                        <div class="col-md-2 row-ssn mg-b">
+                            <p><small>N° de inscripción SSN</small><br><strong><span
+                                        style="font-size:14px;">0501</span></strong></p>
+                        </div>
+
+                        <div class="col-md-4 row-ssn mg-b">
+                            <p><small>Departamento de Orientación y Asistencia al asegurado</small><br><strong><span
+                                        style="color: #29abe2 !important; font-size: 14px;">0800-666-8400</span></strong></p>
+                        </div>
+
+                        <div class="col-md-3">
+                            <p><strong><span style="color: #29abe2 !important; font-size: 14px;">www.argentina.gob.ar/ssn</span></strong>
+                            </p>
+                        </div>
+
+                        <div class="col-md-3 col-xs-8 mg-b"><img alt="SSN" src="/sites/default/files/2020-05/LogoSSN.svg"></div>
+
+                        <div class="col-md-12 col-xs-12 mg-t">
+                            <div class="row">
+                                <div class="col-md-8 mg-b">
+                                    <p><small>La entidad aseguradora dispone de un <strong>Servicio de Atención al
+                                                Asegurado</strong> que atenderá las consultas y reclamos que presenten los
+                                            tomadores de seguros, asegurados, beneficiarios y/o derechohabientes.</small></p>
+
+                                    <p><small>En caso de que existiera un reclamo ante la entidad aseguradora y que el mismo no
+                                            haya sido resuelto o haya sido desestimado, total o parcialmente, o que haya sido
+                                            denegada su admisión, podrá comunicarse con la&nbsp;&nbsp;Superintendencia de
+                                            Seguros de la Nación por teléfono al 0800-666-8400, correo electrónico a
+                                            <strong>consultas@ssn.gob.ar</strong> o formulario disponible en la
+                                            página&nbsp;<strong>www.argentina.gob.ar/ssn</strong></small></p>
+                                </div>
+
+                                <div class="col-md-4 mg-b">
+                                    <p><strong><small>El Servicio de Atención al Asegurado está integrado por:</small></strong>
+                                    </p>
+
+                                    <p><small>Responsable: Sandra Sevillano<br>
+                                            Suplente: Ariel Mariano Zabaleta<br>
+                                            Tel: 4857-7677 opción 2</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row mg-lg mg-lg">
+                        <div class="col-md-12">
+                            <p><a class="mg-r" href="/protección-de-datos-personales" rel="nofollow">
+                                <img alt="PDP" src="assets/images/logo2.jpg"></a>
+                                <a class="mg-l" href="/quienes-somos/data-fiscal" rel="nofollow">
+                                <img alt="AFIP" src="assets/images/logo5.jpg"></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </footer>
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
-
 </html>
