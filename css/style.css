@@ -168,22 +168,6 @@ button:active {
     padding: 10px;
 }
 
-footer {
-    padding: 5px;
-    background-color: lightgray;
-}
-
-.footer-text {
-    /* calc based on three .footer-media widths and some adjustment */
-    width: calc(100% - 110px);
-    display: inline-block;
-    vertical-align: text-top;
-}
-
-.footer-media {
-    display: inline-block;
-}
-
 #car-code {
     width: 250px;
 }
@@ -259,7 +243,88 @@ footer {
 }
 
 .active {
-    /* border: 1px solid black;*/
     background-color: lightgray;
     border-bottom: 3px solid cyan;
+}
+
+/* FOOTER & FOOTER GRID */
+
+.grid-section {
+    padding: 0px;
+}
+
+.footer-main-section {
+    background-color: lightgray;
+}
+
+.item0 {
+    grid-area: item0;
+    width: 50px;
+}
+
+.item1 {
+    grid-area: item1;
+    width: 50px;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item4 {
+    grid-area: item4;
+}
+
+.item5 {
+    grid-area: item5;
+}
+
+.item6 {
+    grid-area: item6;
+}
+
+.item7 {
+    grid-area: item7;
+}
+
+.item8 {
+    grid-area: item8;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'item0 item2 item3 item4 item5 item1'
+    'item0 item6 item6 item6 item7 item1'
+    'item0 item8 item8 item8 item8 item1';
+    gap: 3px;
+    background-color: #fff;
+    padding: 25px;
+}
+
+.grid-container div {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.footer-highlight-text {
+    color: #29abe2;
+    font-size: 12px;
+}
+
+.footer-text {
+    /* calc based on three .footer-media widths and some adjustment */
+    width: calc(100% - 110px);
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.footer-media {
+    display: inline-block;
 }
