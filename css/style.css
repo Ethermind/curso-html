@@ -235,6 +235,7 @@ button:active {
 
 .nav-link {
     color: lightgray;
+    padding-left: 5px;
 }
 
 .nav-link:hover {
@@ -247,6 +248,17 @@ button:active {
     border-bottom: 3px solid cyan;
 }
 
+.navbar-toggler {
+    background-color: lightgray;
+}
+
+.offcanvas-header {
+    background-color: #08274e;
+}
+
+.offcanvas-body {
+    background-color: #08274e;
+}
 /* FOOTER & FOOTER GRID */
 
 .grid-section {
