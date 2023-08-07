@@ -40,11 +40,19 @@ h4 {
     object-fit: cover;
 }
 
+/* TODO: remove this */
 .img-64x64 {
     width: 64px;
     height: 64px;
 }
 
+.material-icon-index,
+.material-icon-about,
+.material-icon-benefit {
+    font-size: 64px;
+}
+
+/* TODO: remove this */
 .img-32x32 {
     width: 32px;
     height: 32px;
@@ -121,12 +129,29 @@ button:active {
     display: inline-block;
 }
 
+.info-cards {
+    /* display: flex; */
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center; */
+    /* display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    grid-template-rows:max-content; */
+}
+
 .info-card {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 5px;
     margin: 5px;
     width: 200px;
     display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+}
+
+.info-card:hover {
+    /* border: 1px solid black; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
 .info-card p {
@@ -134,17 +159,34 @@ button:active {
     text-align: right;
 }
 
+.about-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .about-card {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* .about-card {
     border: 1px solid black;
     padding: 5px;
     margin: 5px;
     width: 200px;
     height: 600px;
     display: inline-block;
-}
+} */
 
 .about-card p {
     padding: 10px;
+}
+
+.benefit-cards {
+    /* display: flex;
+    align-content: flex-start; */
 }
 
 .benefit-card {
@@ -152,7 +194,6 @@ button:active {
     padding: 5px;
     margin: 5px;
     width: 400px;
-    height: 320px;
     display: inline-block;
 }
 
@@ -160,15 +201,14 @@ button:active {
     padding: 10px;
 }
 
-#car-code {
-    width: 250px;
-}
-
+#car-code,
 #contact-first-name,
 #contact-last-name,
 #contact-phone,
-#contact-email {
-    width: 220px;
+#contact-email,
+#contact-text {
+    box-sizing: border-box;
+    width: 100%;
 }
 
 #virtual-room-document-id,
@@ -371,5 +411,19 @@ button:active {
         'item0 item6 item1'
         'item0 item7 item1'
         'item0 item8 item1';
+    }
+}
+
+/* Used for main page */
+@media only screen and (max-width: 454px) {
+    .info-card {
+        width: 100%;
+    }
+}
+
+/* Used for benefit page */
+@media only screen and (max-width: 854px) {
+    .benefit-card {
+        width: 100%;
     }
 }
