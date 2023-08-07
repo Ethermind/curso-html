@@ -328,6 +328,7 @@ button:active {
     width: calc(100% - 110px);
     display: inline-block;
     vertical-align: text-top;
+    font-size: smaller;
 }
 
 .footer-media {
@@ -345,6 +346,10 @@ button:active {
 
     .index-main-img {
         height: 150px;
+    }
+
+    .footer-text {
+        font-size: x-small;
     }
 
     .grid-container div {
