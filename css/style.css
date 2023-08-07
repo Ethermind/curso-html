@@ -16,22 +16,6 @@ h4 {
     color: black;
 }
 
-/* li {
-    font-size: larger;
-    display: inline;
-    padding: 5px;
-}
-
-li a {
-    color: lightgray;
-    text-decoration: none;
-}
-
-li a:hover {
-    color: black;
-    background-color: gray;
-} */
-
 .a-social-network {
     text-decoration: none;
 }
@@ -43,9 +27,16 @@ li a:hover {
     padding-right: 10px;
 }
 
+/* TODO: remove this */
 .img-300x300 {
     width: 300px;
     height: 300px;
+}
+
+.index-main-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
 
 .img-64x64 {
@@ -125,7 +116,8 @@ button:active {
 .index-main-card {
     padding: 5px;
     margin: 5px;
-    width: 500px;
+    /* width: 500px; */
+    width: 50%;
     display: inline-block;
 }
 
@@ -218,10 +210,6 @@ button:active {
     object-fit: cover;
 }
 
-
-
-
-
 /* BOOTSTRAP CUSTOMIZATION */
 
 .navbar {
@@ -258,6 +246,10 @@ button:active {
 
 .offcanvas-body {
     background-color: #08274e;
+}
+
+.btn-close {
+    background-color: lightgray;
 }
 /* FOOTER & FOOTER GRID */
 
@@ -320,7 +312,7 @@ button:active {
 
 .grid-container div {
     background-color: #fff;
-    text-align: center;
+    /* text-align: center; */
     padding: 10px;
     font-size: 12px;
 }
@@ -328,6 +320,7 @@ button:active {
 .footer-highlight-text {
     color: #29abe2;
     font-size: 12px;
+    text-align: center;
 }
 
 .footer-text {
@@ -339,4 +332,33 @@ button:active {
 
 .footer-media {
     display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+    .index-main-cards {
+        flex-direction: column-reverse;
+    }
+
+    .index-main-card {
+        width: 100%;
+    }
+
+    .index-main-img {
+        height: 150px;
+    }
+
+    .grid-container div {
+        text-align: start;
+    }
+
+    .grid-container {
+        grid-template-areas:
+        'item0 item2 item1'
+        'item0 item3 item1'
+        'item0 item4 item1'
+        'item0 item5 item1'
+        'item0 item6 item1'
+        'item0 item7 item1'
+        'item0 item8 item1';
+    }
 }
