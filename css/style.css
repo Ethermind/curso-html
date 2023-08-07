@@ -130,13 +130,6 @@ button:active {
 }
 
 .info-cards {
-    /* display: flex; */
-    /* display: flex;
-    flex-wrap: wrap;
-    align-items: center; */
-    /* display: grid;
-    grid-template-columns: 250px 250px 250px 250px 250px;
-    grid-template-rows:max-content; */
 }
 
 .info-card {
@@ -185,8 +178,6 @@ button:active {
 }
 
 .benefit-cards {
-    /* display: flex;
-    align-content: flex-start; */
 }
 
 .benefit-card {
