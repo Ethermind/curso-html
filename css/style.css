@@ -29,8 +29,9 @@ h4 {
 
 /* TODO: remove this */
 .img-300x300 {
-    width: 300px;
+    width: 100%;
     height: 300px;
+    object-fit: cover;
 }
 
 .index-main-img {

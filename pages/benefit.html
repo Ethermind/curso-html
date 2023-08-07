@@ -3,25 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- MATERIAL ICONS -->
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- CUSTOM CSS -->
+
     <link rel="stylesheet" href="../css/style.css">
-    <title>Seguros S.A.</title>
+    <title>G.C. Seguros</title>
 </head>
 <body>
+
+    <!-- HEADER -->
+
     <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="about.html">Nosotros</a></li>
-                <li><a href="benefit.html">Beneficio</a></li>
-                <li><a href="contact.html">Contacto</a></li>
-                <li><a href="virtual-room.html" target="_blank">Sucursal Virtual</a></li>
-            </ul>
+        <nav class="navbar bg-body-tertiary navbar-expand-md navbar-custom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="img-logo" src="assets/images/gc.gif">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                            <img class="img-logo" src="assets/images/gc.gif">
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">Nosotros</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="benefit.html">Beneficio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+                            <li class="nav-item"><a class="nav-link" href="virtual-room.html" target="_blank">Sucursal
+                                    Virtual</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
         <section>
             <article>
-                <h2>CONOCE LOS BENEFICIOS QUE TIENEN TODOS NUESTROS PLANES</h2>
+                <h1>CONOCE LOS BENEFICIOS QUE TIENEN TODOS NUESTROS PLANES</h1>
             </article>
             <article>
                 <div class="benefit-card">
@@ -76,28 +111,88 @@
             </article>
         </section>
     </main>
+
+    <!-- FOOTER -->
+
     <footer>
-        <div class="footer-text">
-            <h5>(c) Copyright 2023 Ethermind Software</h5>
-        </div>
-
-        <div class="footer-media">
-            <a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer" class="a-social-network">
-                <img src="../assets/images/no-image.jpg" class="img-32x32">
-            </a>
-        </div>
-
-        <div class="footer-media">
-            <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer" class="a-social-network">
-                <img src="../assets/images/no-image.jpg" class="img-32x32">
-            </a>
-        </div>
-
-        <div class="footer-media">
-            <a href="http://www.tiktok.com" target="_blank" rel="noopener noreferrer" class="a-social-network">
-                <img src="../assets/images/no-image.jpg" class="img-32x32">
-            </a>
-        </div>
+        <section class="footer-main-section">
+            <div class="footer-text">
+                (c) Copyright 2023 Ethermind Software
+            </div>
+            <div class="footer-media">
+                <a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer" class="a-social-network">
+                    <img src="../assets/images/facebook.svg" class="img-32x32">
+                </a>
+            </div>
+            <div class="footer-media">
+                <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer" class="a-social-network">
+                    <img src="../assets/images/instagram.svg" class="img-32x32">
+                </a>
+            </div>
+            <div class="footer-media">
+                <a href="http://www.tiktok.com" target="_blank" rel="noopener noreferrer" class="a-social-network">
+                    <img src="../assets/images/tiktok.svg" class="img-32x32">
+                </a>
+            </div>
+        </section>
+        <section class="grid-section">
+            <div class="grid-container">
+                <div class="item0"></div>
+                <div class="item1"></div>
+                <div class="item2">N° de inscripción SSN <b>0501</b></div>
+                <div class="item3">
+                    Departamento de Orientación y Asistencia al asegurado
+                    <div class="footer-highlight-text">
+                        0800-666-8400
+                    </div>
+                </div>
+                <div class="item4">
+                    <div class="footer-highlight-text">
+                        www.argentina.gob.ar/ssn
+                    </div>
+                </div>
+                <div class="item5"><img alt="SSN" src="../assets/images/LogoSSN.svg"></div>
+                <div class="item6">
+                    <p>
+                        La entidad aseguradora dispone de un <b>Servicio de Atención al Asegurado</b> que atenderá
+                        las consultas y reclamos que presenten los tomadores de seguros, asegurados, beneficiarios
+                        y/o derechohabientes.
+                    </p>
+                    <p>
+                        En caso de que existiera un reclamo ante la entidad aseguradora y que el mismo no
+                        haya sido resuelto o haya sido desestimado, total o parcialmente, o que haya sido
+                        denegada su admisión, podrá comunicarse con la Superintendencia de
+                        Seguros de la Nación por teléfono al 0800-666-8400, correo electrónico a
+                        <b>consultas@ssn.gob.ar</b> o formulario disponible en la página
+                        <b>www.argentina.gob.ar/ssn</b>
+                    </p>
+                </div>
+                <div class="item7">
+                    <p>
+                        <b>El Servicio de Atención al Asegurado está integrado por:</b>
+                    </p>
+                    <p>
+                        Responsable: Sandra Sevillano
+                        <br>
+                        Suplente: Ariel Mariano Zabaleta
+                        <br>
+                        Tel: 4857-7677 opción 2
+                    </p>
+                </div>
+                <div class="item8">
+                    <p>
+                        <a href="#" rel="nofollow">
+                        <img alt="PDP" src="../assets/images/logo2.jpg"></a>
+                        <a href="#" rel="nofollow">
+                        <img alt="AFIP" src="../assets/images/logo5.jpg"></a>
+                    </p>
+                </div>
+            </div>
+        </section>
     </footer>
+
+    <!-- SCRIPTS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
