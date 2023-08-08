@@ -1,4 +1,11 @@
-AGREGAR UN SUBMENU y ver el link con el menu para mobile
-adaptar todo para mobile
-mejorar las cards usando flex
-ver de meter una grilla
+tareas basicas antes de continuar...
+
+corregir botones comunes.. texto en negro..
+corregir acentos en sucursal virtual y ver porque tiene un boton con texto azul
+corregir el menu.. si hago drag & drop de una opcion de menu.. EL TEXTO SE PONE NEGRO!! WTF??
+actualizar links de redes sociales y mejorar como se ve.. agregar texto "seguinos en: "
+empezar a poner textos correctos en vez de los lorem
+mejorar la pagina de about .. dejarla como la de beneficios y que la pagina de beneficios tenga un accordion
+corregir los nombres de las imagenes
+utilizar bootstrap para los forms
+
