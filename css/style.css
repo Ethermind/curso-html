@@ -26,10 +26,6 @@ h4 {
     font-size: 30px;
 }
 
-.a-social-network {
-    text-decoration: none;
-}
-
 .a-forgot-password {
     text-decoration: none;
     text-align: right;
@@ -335,9 +331,9 @@ ___________            __
 .grid-container {
     display: grid;
     grid-template-areas:
-    'item0 item2 item3 item4 item5 item1'
-    'item0 item6 item6 item6 item7 item1'
-    'item0 item8 item8 item8 item8 item1';
+        'item0 item2 item3 item4 item5 item1'
+        'item0 item6 item6 item6 item7 item1'
+        'item0 item8 item8 item8 item8 item1';
     gap: 3px;
     background-color: white;
     padding: 25px;
@@ -399,13 +395,13 @@ ___________            __
 
     .grid-container {
         grid-template-areas:
-        'item0 item2 item1'
-        'item0 item3 item1'
-        'item0 item4 item1'
-        'item0 item5 item1'
-        'item0 item6 item1'
-        'item0 item7 item1'
-        'item0 item8 item1';
+            'item0 item2 item1'
+            'item0 item3 item1'
+            'item0 item4 item1'
+            'item0 item5 item1'
+            'item0 item6 item1'
+            'item0 item7 item1'
+            'item0 item8 item1';
     }
 
     .virtual-room-card {
@@ -417,7 +413,7 @@ ___________            __
     }
 
     .img-virtual-room-header {
-        display:inline;
+        display: inline;
     }
 }
 
