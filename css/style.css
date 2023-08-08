@@ -13,7 +13,8 @@ h3 {
 }
 
 h4 {
-    color: black;
+    color: white;
+    font-size: 30px;
 }
 
 .a-social-network {
@@ -48,8 +49,13 @@ h4 {
 
 .material-icon-index,
 .material-icon-about,
-.material-icon-benefit {
+.material-icon-benefit,
+.material-icon-virtual-room {
     font-size: 64px;
+}
+
+.material-icon-done {
+    font-size: 24px;
 }
 
 /* TODO: remove this */
@@ -64,10 +70,11 @@ h4 {
     margin-right: 5px;
 }
 
-.img-header {
+.img-virtual-room-header {
     width: 100%;
-    height: 96px;
+    height: 150px;
     object-fit: cover;
+    display: none;
 }
 
 section {
@@ -97,7 +104,7 @@ input {
     font-size: 15px;
 }
 
-button {
+.custom-button {
     border: 1px solid black;
     background-color: lightgray;
     border-radius: 15px;
@@ -108,7 +115,7 @@ button {
     text-decoration: none;
 }
 
-button:hover {
+.custom-button:hover {
     background-color: darkgray;
 }
 
@@ -197,28 +204,23 @@ button:active {
 #contact-last-name,
 #contact-phone,
 #contact-email,
-#contact-text {
+#contact-text,
+#virtual-room-document-id,
+#virtual-room-password {
     box-sizing: border-box;
     width: 100%;
 }
 
-#virtual-room-document-id,
-#virtual-room-password,
-#virtual-room-start-session,
-#virtual-room-register {
-    width: 450px;
-}
-
-.virtual-room-floating {
+/* .virtual-room-floating {
     position: relative;
-}
+} */
 
 .virtual-room-cards {
-    display: inline-block;
-    padding: 5px;
-    position: absolute;
+    /* display: inline-block; */
+    /* padding: 5px; */
+    /* position: absolute;
     top: -100px;
-    left: 600px;
+    left: 600px; */
 }
 
 .virtual-room-card {
@@ -239,6 +241,24 @@ button:active {
 .img-logo {
     height: 50px;
     object-fit: cover;
+}
+
+
+.virtual-room-red-button {
+    background-color: #d93a3e;
+    color: white;
+    border: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.virtual-room-red-button:hover {
+    background-color: darkred;
+    color: lightgray;
+}
+
+.red-text {
+    color: #d93a3e;
 }
 
 /* BOOTSTRAP CUSTOMIZATION */
@@ -281,6 +301,10 @@ button:active {
 
 .btn-close {
     background-color: lightgray;
+}
+
+.carousel-caption {
+    text-align: left;
 }
 
 /* FOOTER & FOOTER GRID */
@@ -402,6 +426,18 @@ button:active {
         'item0 item6 item1'
         'item0 item7 item1'
         'item0 item8 item1';
+    }
+
+    .virtual-room-card {
+        display: none;
+    }
+
+    #carouselVirtualRoom {
+        display: none;
+    }
+
+    .img-virtual-room-header {
+        display:inline;
     }
 }
 

@@ -18,73 +18,58 @@
     <title>G.C. Seguros</title>
 </head>
 <body>
-
-    <!-- HEADER -->
-
     <header>
-        <nav class="navbar bg-body-tertiary navbar-expand-md navbar-custom">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img class="img-logo" src="../assets/images/gc.gif">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                    aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                            <img class="img-logo" src="../assets/images/gc.gif">
-                        </h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">Nosotros</a></li>
-                            <li class="nav-item"><a class="nav-link" href="benefit.html">Beneficio</a></li>
-                            <li class="nav-item"><a class="nav-link active" href="contact.html">Contacto</a></li>
-                            <li class="nav-item"><a class="nav-link" href="virtual-room.html" target="_blank">Sucursal
-                                    Virtual</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <img src="../assets/images/no-image.jpg" class="img-header">
     </header>
-
-    <!-- MAIN -->
-
     <main>
         <section>
-            <article class="index-main-cards">
+            <article>
+                <div class="virtual-room-floating">
+                    <div class="virtual-room-cards">
+                        <div class="virtual-room-card">
+                            <img src="../assets/images/no-image.jpg" class="img-64x64">
+                            <div>
+                                <img src="../assets/images/no-image.jpg" class="img-16x16">
+                                <h5>Abona con Mercado Pago</h5>
+                            </div>
+                        </div>
+                        <div class="virtual-room-card">
+                            <img src="../assets/images/no-image.jpg" class="img-64x64">
+                            <div>
+                                <img src="../assets/images/no-image.jpg" class="img-16x16">
+                                <h5>Denuncia de siniestro</h5>
+                            </div>
+                        </div>
+                        <div class="virtual-room-card">
+                            <img src="../assets/images/no-image.jpg" class="img-64x64">
+                            <div>
+                                <img src="../assets/images/no-image.jpg" class="img-16x16">
+                                <h5>Solicita asistencias</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="index-main-card">
-                    <h1>TENES ALGUNA CONSULTA?</h1>
-                    <h3>Dejanos tu consulta y nos comunicaremos a la brevedad.</h3>
+                    <h1>SUCURSAL VIRTUAL</h1>
+                    <h2>Inicia sesion.</h2>
                     <form action="#" method="get" enctype="multipart/form-data">
                         <p>
-                            <input type="text" id="contact-first-name" placeholder="Nombre *">
+                            <input type="text" id="virtual-room-document-id" placeholder="Nro de documento *">
                         </p>
                         <p>
-                            <input type="text" id="contact-last-name" placeholder="Apellido *">
+                            <input type="password" id="virtual-room-password" placeholder="Contraseña *">
                         </p>
                         <p>
-                            <input type="tel" id="contact-phone" placeholder="Telefono *">
+                            <a href="#" class="a-forgot-password">Olvide mi Contraseña</a>
                         </p>
                         <p>
-                            <input type="email" id="contact-email" placeholder="Email *">
+                            <button type="submit" id="virtual-room-start-session">Inicia sesion</button>
                         </p>
                         <p>
-                            <textarea name="contact-text" id="contact-text" rows="6" placeholder="Consulta *"></textarea>
-                        </p>
-                        <p>
-                            <button type="submit" class="custom-button">Enviar</button>
+                            <button type="button" id="virtual-room-register">Registrarse</button>
                         </p>
                     </form>
-                </div>
-                <div class="index-main-card">
-                    <img src="../assets/images/gc-main.jpeg" class="index-main-img">
                 </div>
             </article>
         </section>
