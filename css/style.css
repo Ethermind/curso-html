@@ -1,3 +1,12 @@
+/*
+  ________                                  .__
+ /  _____/  ____   ____   ________________  |  |
+/   \  ____/ __ \ /    \_/ __ \_  __ \__  \ |  |
+\    \_\  \  ___/|   |  \  ___/|  | \// __ \|  |__
+ \______  /\___  >___|  /\___  >__|  (____  /____/
+        \/     \/     \/     \/           \/
+*/
+
 h1 {
     color: blue;
     padding-bottom: 20px;
@@ -28,23 +37,10 @@ h4 {
     padding-right: 10px;
 }
 
-/* TODO: remove this */
-.img-300x300 {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-}
-
 .index-main-img {
     width: 100%;
     height: 300px;
     object-fit: cover;
-}
-
-/* TODO: remove this */
-.img-64x64 {
-    width: 64px;
-    height: 64px;
 }
 
 .material-icon-index,
@@ -58,16 +54,9 @@ h4 {
     font-size: 24px;
 }
 
-/* TODO: remove this */
-.img-32x32 {
+.img-social-media {
     width: 32px;
     height: 32px;
-}
-
-.img-16x16 {
-    width: 16px;
-    height: 16px;
-    margin-right: 5px;
 }
 
 .img-virtual-room-header {
@@ -136,11 +125,7 @@ button:active {
     display: inline-block;
 }
 
-.info-cards {
-}
-
 .info-card {
-    /* border: 1px solid black; */
     padding: 5px;
     margin: 5px;
     width: 200px;
@@ -150,7 +135,6 @@ button:active {
 }
 
 .info-card:hover {
-    /* border: 1px solid black; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
@@ -171,20 +155,8 @@ button:active {
     margin: 5px;
 }
 
-/* .about-card {
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
-    width: 200px;
-    height: 600px;
-    display: inline-block;
-} */
-
 .about-card p {
     padding: 10px;
-}
-
-.benefit-cards {
 }
 
 .benefit-card {
@@ -211,18 +183,6 @@ button:active {
     width: 100%;
 }
 
-/* .virtual-room-floating {
-    position: relative;
-} */
-
-.virtual-room-cards {
-    /* display: inline-block; */
-    /* padding: 5px; */
-    /* position: absolute;
-    top: -100px;
-    left: 600px; */
-}
-
 .virtual-room-card {
     margin: 15px;
     padding: 5px;
@@ -243,7 +203,6 @@ button:active {
     object-fit: cover;
 }
 
-
 .virtual-room-red-button {
     background-color: #d93a3e;
     color: white;
@@ -261,7 +220,14 @@ button:active {
     color: #d93a3e;
 }
 
-/* BOOTSTRAP CUSTOMIZATION */
+/*
+__________               __            __
+\______   \ ____   _____/  |_  _______/  |_____________  ______
+ |    |  _//  _ \ /  _ \   __\/  ___/\   __\_  __ \__  \ \____ \
+ |    |   (  <_> |  <_> )  |  \___ \  |  |  |  | \// __ \|  |_> >
+ |______  /\____/ \____/|__| /____  > |__|  |__|  (____  /   __/
+        \/                        \/                   \/|__|
+*/
 
 .navbar {
     padding: 0px;
@@ -307,7 +273,14 @@ button:active {
     text-align: left;
 }
 
-/* FOOTER & FOOTER GRID */
+/*
+___________            __
+\_   _____/___   _____/  |_  ___________
+ |    __)/  _ \ /  _ \   __\/ __ \_  __ \
+ |     \(  <_> |  <_> )  | \  ___/|  | \/
+ \___  / \____/ \____/|__|  \___  >__|
+     \/                         \/
+*/
 
 .grid-section {
     padding: 0px;
@@ -394,7 +367,14 @@ button:active {
     display: inline-block;
 }
 
-/* MEDIA QUERIES */
+/*
+   _____             .___.__         ________                      .__
+  /     \   ____   __| _/|__|____    \_____  \  __ __   ___________|__| ____   ______
+ /  \ /  \_/ __ \ / __ | |  \__  \    /  / \  \|  |  \_/ __ \_  __ \  |/ __ \ /  ___/
+/    Y    \  ___// /_/ | |  |/ __ \_ /   \_/.  \  |  /\  ___/|  | \/  \  ___/ \___ \
+\____|__  /\___  >____ | |__(____  / \_____\ \_/____/  \___  >__|  |__|\___  >____  >
+        \/     \/     \/         \/         \__>           \/              \/     \/
+*/
 
 @media only screen and (max-width: 768px) {
     .index-main-cards {
@@ -441,15 +421,15 @@ button:active {
     }
 }
 
-/* Used for main page */
+/* Used for main page only */
 @media only screen and (max-width: 454px) {
     .info-card {
         width: 100%;
     }
 }
 
-/* Used for benefit page */
-@media only screen and (max-width: 854px) {
+/* Used for benefit page only */
+@media only screen and (max-width: 869px) {
     .benefit-card {
         width: 100%;
     }
