@@ -1,5 +1,5 @@
 .navbar {
-    padding: 0px;
+    padding: $padding-size-none;
     margin: 0px;
 }
 
@@ -9,7 +9,7 @@
 
 .nav-link {
     color: lightgray;
-    padding-left: 5px;
+    padding-left: $padding-size-small;
     transition: 0.3s;
     &:hover {
         color: black;

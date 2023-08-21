@@ -1,5 +1,5 @@
 .grid-section {
-    padding: 0px;
+    padding: $padding-size-none;
 }
 
 .footer-main-section {
@@ -34,7 +34,7 @@
 
 .grid-container div {
     background-color: white;
-    padding: 10px;
+    padding: $padding-size-normal;
     font-size: 12px;
 }
 

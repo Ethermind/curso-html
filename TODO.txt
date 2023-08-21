@@ -31,6 +31,12 @@ SASS ES OBLIGATORIO!
 . Paleta basica, principalmente para la personalización de los componentes.
 . Jeraquización del contenido.
 
+@mixin shadow($color) { box-shadow: 0 4px 8px $color; }
+
+Y luego usarlo en cada selector que quieras aplicar el efecto:
+
+.material-icon-index { @include shadow(blue); }
+
 
 
 

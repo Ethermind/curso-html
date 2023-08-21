@@ -5,11 +5,11 @@
 
 .benefit-card {
     border: 1px solid black;
-    padding: 5px;
+    padding: $padding-size-small;
     margin: 5px;
     width: 400px;
     flex-grow: 1;
     p {
-        padding: 10px;
+        padding: $padding-size-normal;
     }
 }

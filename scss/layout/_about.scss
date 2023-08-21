@@ -6,9 +6,9 @@
 
 .about-card {
     border: 1px solid black;
-    padding: 5px;
+    padding: $padding-size-small;
     margin: 5px;
     p {
-        padding: 10px;
+        padding: $padding-size-normal;
     }
 }

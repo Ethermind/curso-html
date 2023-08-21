@@ -1,16 +1,16 @@
 .info-card {
-    padding: 5px;
+    padding: $padding-size-small;
     margin: 5px;
     width: 200px;
     display: inline-block;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    @include shadow(0.2);
     background-color: #f1f1f1;
     transition: 0.3s;
     &:hover {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+        @include shadow(0.4);
     }
     p {
-        padding: 10px;
+        padding: $padding-size-normal;
         text-align: right;
     }
 }
