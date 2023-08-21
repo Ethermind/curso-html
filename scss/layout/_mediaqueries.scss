@@ -7,6 +7,10 @@
         \/     \/     \/         \/         \__>           \/              \/     \/
 */
 @media only screen and (max-width: 768px) {
+    .offcanvas-body {
+        background-color: #08274e;
+    }
+
     .index-main-cards {
         flex-direction: column-reverse;
     }

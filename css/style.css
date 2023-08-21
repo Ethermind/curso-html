@@ -102,10 +102,6 @@ p {
   background-color: #08274e;
 }
 
-.offcanvas-body {
-  background-color: #08274e;
-}
-
 .btn-close {
   background-color: lightgray;
 }
@@ -383,6 +379,9 @@ svg:hover {
         \/     \/     \/         \/         \__>           \/              \/     \/
 */
 @media only screen and (max-width: 768px) {
+  .offcanvas-body {
+    background-color: #08274e;
+  }
   .index-main-cards {
     flex-direction: column-reverse;
   }
