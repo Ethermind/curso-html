@@ -57,6 +57,17 @@ p {
 }
 
 /* EJEMPLOOOOOOO */
+@keyframes buttonAnim {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .navbar {
   padding: 0px;
   margin: 0px;
@@ -241,6 +252,7 @@ svg:hover {
 
 .custom-button:hover {
   background-color: #015eaf;
+  animation: buttonAnim 1.5s ease 0s 1 normal forwards;
 }
 
 .index-main-cards {
@@ -262,6 +274,7 @@ svg:hover {
   display: inline-block;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #f1f1f1;
+  transition: 0.3s;
 }
 
 .info-card:hover {
