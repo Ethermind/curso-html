@@ -1,0 +1,59 @@
+/*
+   _____             .___.__         ________                      .__
+  /     \   ____   __| _/|__|____    \_____  \  __ __   ___________|__| ____   ______
+ /  \ /  \_/ __ \ / __ | |  \__  \    /  / \  \|  |  \_/ __ \_  __ \  |/ __ \ /  ___/
+/    Y    \  ___// /_/ | |  |/ __ \_ /   \_/.  \  |  /\  ___/|  | \/  \  ___/ \___ \
+\____|__  /\___  >____ | |__(____  / \_____\ \_/____/  \___  >__|  |__|\___  >____  >
+        \/     \/     \/         \/         \__>           \/              \/     \/
+*/
+@media only screen and (max-width: 768px) {
+    .index-main-cards {
+        flex-direction: column-reverse;
+    }
+
+    .index-main-card {
+        width: 100%;
+    }
+
+    .index-main-img {
+        height: 150px;
+    }
+
+    .footer-text {
+        font-size: x-small;
+    }
+
+    .grid-container div {
+        text-align: start;
+    }
+
+    .grid-container {
+        grid-template-areas:
+            'item0 item2 item1'
+            'item0 item3 item1'
+            'item0 item4 item1'
+            'item0 item5 item1'
+            'item0 item6 item1'
+            'item0 item7 item1'
+            'item0 item8 item1';
+    }
+
+    .virtual-room-card {
+        display: none;
+    }
+
+    #carouselVirtualRoom {
+        display: none;
+    }
+
+    .img-virtual-room-header {
+        display: inline;
+    }
+}
+
+/* Used for main page only */
+@media only screen and (max-width: 454px) {
+    .info-card {
+        width: 100%;
+    }
+}

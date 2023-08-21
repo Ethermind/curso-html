@@ -1,0 +1,441 @@
+/*
+  ________                                  .__
+ /  _____/  ____   ____   ________________  |  |
+/   \  ____/ __ \ /    \_/ __ \_  __ \__  \ |  |
+\    \_\  \  ___/|   |  \  ___/|  | \// __ \|  |__
+ \______  /\___  >___|  /\___  >__|  (____  /____/
+        \/     \/     \/     \/           \/
+*/
+
+h1 {
+    color: darkblue;
+    padding-bottom: 20px;
+}
+
+h2 {
+    color:dodgerblue;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: gray;
+}
+
+h4 {
+    color: white;
+    font-size: 30px;
+}
+
+.a-forgot-password {
+    text-decoration: none;
+    text-align: right;
+    display: block;
+    padding-right: 10px;
+}
+
+.index-main-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.material-icon-index,
+.material-icon-about,
+.material-icon-benefit,
+.material-icon-virtual-room {
+    font-size: 64px;
+}
+
+.material-icon-done {
+    font-size: 24px;
+}
+
+.img-social-media {
+    width: 32px;
+    height: 32px;
+}
+
+.img-virtual-room-header {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: none;
+}
+
+section {
+    padding: 15px;
+}
+
+article {
+    padding-bottom: 30px;
+}
+
+article p {
+    padding-bottom: 10px;
+}
+
+form {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+form p {
+    padding: 10px;
+}
+
+input {
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.custom-button {
+    border: 1px solid black;
+    background-color: lightgray;
+    border-radius: 15px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px 25px;
+    text-decoration: none;
+}
+
+.custom-button:hover {
+    background-color: darkgray;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+.index-main-cards {
+    display: flex;
+    align-self: flex-start;
+}
+
+.index-main-card {
+    padding: 5px;
+    margin: 5px;
+    width: 50%;
+    display: inline-block;
+}
+
+.info-card {
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+}
+
+.info-card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.info-card p {
+    padding: 10px;
+    text-align: right;
+}
+
+.about-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.about-card {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.about-card p {
+    padding: 10px;
+}
+
+.benefit-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.benefit-card {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    width: 400px;
+    /* display: inline-block; */
+
+    flex-grow: 1;
+
+    /* box-sizing: border-box; */
+}
+
+.benefit-card p {
+    padding: 10px;
+}
+
+#car-code,
+#contact-first-name,
+#contact-last-name,
+#contact-phone,
+#contact-email,
+#contact-text,
+#virtual-room-document-id,
+#virtual-room-password {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.virtual-room-card {
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: lightgray;
+    width: 300px;
+    height: 120px;
+}
+
+.virtual-room-card div {
+    padding-top: 15px;
+    padding-left: 5px;
+    display: flex;
+}
+
+.img-logo {
+    height: 50px;
+    object-fit: cover;
+}
+
+.virtual-room-red-button {
+    background-color: #d93a3e;
+    color: white;
+    border: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.virtual-room-red-button:hover {
+    background-color: darkred;
+    color: lightgray;
+}
+
+.red-text {
+    color: #d93a3e;
+}
+
+/*
+__________               __            __
+\______   \ ____   _____/  |_  _______/  |_____________  ______
+ |    |  _//  _ \ /  _ \   __\/  ___/\   __\_  __ \__  \ \____ \
+ |    |   (  <_> |  <_> )  |  \___ \  |  |  |  | \// __ \|  |_> >
+ |______  /\____/ \____/|__| /____  > |__|  |__|  (____  /   __/
+        \/                        \/                   \/|__|
+*/
+
+.navbar {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-fluid {
+    background-color: #08274e;
+}
+
+.nav-link {
+    color: lightgray;
+    padding-left: 5px;
+}
+
+.nav-link:hover {
+    color: black;
+    background-color: gray;
+}
+
+.active {
+    background-color: lightgray;
+    border-bottom: 3px solid cyan;
+}
+
+.navbar-toggler {
+    background-color: lightgray;
+}
+
+.offcanvas-header {
+    background-color: #08274e;
+}
+
+.offcanvas-body {
+    background-color: #08274e;
+}
+
+.btn-close {
+    background-color: lightgray;
+}
+
+.carousel-caption {
+    text-align: left;
+}
+
+/*
+___________            __
+\_   _____/___   _____/  |_  ___________
+ |    __)/  _ \ /  _ \   __\/ __ \_  __ \
+ |     \(  <_> |  <_> )  | \  ___/|  | \/
+ \___  / \____/ \____/|__|  \___  >__|
+     \/                         \/
+*/
+
+.grid-section {
+    padding: 0px;
+}
+
+.footer-main-section {
+    background-color: lightgray;
+}
+
+.item0 {
+    grid-area: item0;
+    width: 50px;
+}
+
+.item1 {
+    grid-area: item1;
+    width: 50px;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item4 {
+    grid-area: item4;
+}
+
+.item5 {
+    grid-area: item5;
+}
+
+.item6 {
+    grid-area: item6;
+}
+
+.item7 {
+    grid-area: item7;
+}
+
+.item8 {
+    grid-area: item8;
+}
+
+.item8 p {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'item0 item2 item3 item4 item5 item1'
+        'item0 item6 item6 item6 item7 item1'
+        'item0 item8 item8 item8 item8 item1';
+    gap: 3px;
+    background-color: white;
+    padding: 25px;
+}
+
+.grid-container div {
+    background-color: white;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.footer-highlight-text {
+    color: #29abe2;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer-text {
+    /* calc based on three .footer-media widths and some adjustment */
+    width: calc(100% - 110px);
+    display: inline-block;
+    vertical-align: text-top;
+    font-size: smaller;
+}
+
+.footer-media {
+    display: inline-block;
+}
+
+/*
+   _____             .___.__         ________                      .__
+  /     \   ____   __| _/|__|____    \_____  \  __ __   ___________|__| ____   ______
+ /  \ /  \_/ __ \ / __ | |  \__  \    /  / \  \|  |  \_/ __ \_  __ \  |/ __ \ /  ___/
+/    Y    \  ___// /_/ | |  |/ __ \_ /   \_/.  \  |  /\  ___/|  | \/  \  ___/ \___ \
+\____|__  /\___  >____ | |__(____  / \_____\ \_/____/  \___  >__|  |__|\___  >____  >
+        \/     \/     \/         \/         \__>           \/              \/     \/
+*/
+
+@media only screen and (max-width: 768px) {
+    .index-main-cards {
+        flex-direction: column-reverse;
+    }
+
+    .index-main-card {
+        width: 100%;
+    }
+
+    .index-main-img {
+        height: 150px;
+    }
+
+    .footer-text {
+        font-size: x-small;
+    }
+
+    .grid-container div {
+        text-align: start;
+    }
+
+    .grid-container {
+        grid-template-areas:
+            'item0 item2 item1'
+            'item0 item3 item1'
+            'item0 item4 item1'
+            'item0 item5 item1'
+            'item0 item6 item1'
+            'item0 item7 item1'
+            'item0 item8 item1';
+    }
+
+    .virtual-room-card {
+        display: none;
+    }
+
+    #carouselVirtualRoom {
+        display: none;
+    }
+
+    .img-virtual-room-header {
+        display: inline;
+    }
+}
+
+/* Used for main page only */
+@media only screen and (max-width: 454px) {
+    .info-card {
+        width: 100%;
+    }
+}
+
+/* Used for benefit page only */
+/* @media only screen and (max-width: 869px) {
+    .benefit-card {
+        width: 100%;
+    }
+} */

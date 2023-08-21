@@ -9,3 +9,250 @@ mejorar la pagina de about .. dejarla como la de beneficios y que la pagina de b
 corregir los nombres de las imagenes
 utilizar bootstrap para los forms
 
+TODOS LOS HOVER CON TRANSITION
+floater para subir..
+inspirarme en: https://proactivetalenthub.com/#agenda
+
+pegar sitemap
+SEO
+optimizacion mobile (minimo 16px)
+completar los alt en imagenes
+paleta de colores
+mejorar score en lighthouse
+metatags.io
+@mixin @extend
+sacar lorem (chatgpt)
+personalizar por paginas los metatags
+meter los transition
+ver cosas de cursada: https://github.com/feralarcon1995
+
+
+
+
+
+
+
+¡Bienvenidos a nuestra empresa de seguros vehiculares!
+
+Sabemos que la seguridad es una prioridad para ti y tu familia, por eso en nuestra empresa nos esforzamos por brindar soluciones integrales y confiables para proteger tu vehículo.
+
+Nuestros seguros vehiculares están diseñados para ofrecerte la tranquilidad que necesitas en cada viaje. Cubrimos los riesgos más comunes a los que estás expuesto en la carretera, como robos, accidentes, daños materiales y responsabilidad civil.
+
+¿Qué nos hace diferentes? Nuestros seguros son flexibles y adaptables a tus necesidades específicas. Ofrecemos una amplia gama de opciones de cobertura, desde la básica hasta la más completa, para que puedas elegir la que mejor se ajuste a tu presupuesto y estilo de vida.
+
+Además, contamos con un equipo de expertos en seguros vehiculares que te ofrecerán el asesoramiento necesario para que tomes la mejor decisión. Estaremos a tu lado en todo momento, ofreciéndote un servicio personalizado y eficiente, desde el momento en que adquieres tu póliza hasta en caso de siniestro.
+
+Queremos que te sientas respaldado en todo momento, por eso te ofrecemos una amplia red de talleres de confianza para que puedas reparar tu vehículo en caso de accidente. También tendrás acceso a servicios de asistencia en carretera las 24 horas del día, los 365 días del año, para que nunca estés solo en caso de emergencia.
+
+En nuestra empresa, la calidad de servicio es nuestra máxima prioridad. Trabajamos para ofrecerte soluciones rápidas y eficientes, adaptadas a tus necesidades, para que puedas disfrutar de la tranquilidad que te mereces mientras conduces tu vehículo.
+
+No te arriesgues, protégete a ti y a tu familia con nuestros seguros vehiculares. ¡Contáctanos hoy mismo y descubre todas las ventajas que tenemos para ofrecerte!
+
+
+
+
+Para generar una serie de 8 cajas de ancho fijo que se muestren una al lado de la otra y si no caben, aparezcan debajo, puedes utilizar CSS flexbox. Aquí te muestro un ejemplo:
+
+HTML:
+```html
+<div class="container">
+  <div class="box">1</div>
+  <div class="box">2</div>
+  <div class="box">3</div>
+  <div class="box">4</div>
+  <div class="box">5</div>
+  <div class="box">6</div>
+  <div class="box">7</div>
+  <div class="box">8</div>
+</div>
+```
+
+CSS:
+```css
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  margin: 10px;
+  box-sizing: border-box;
+}
+```
+
+En este ejemplo, el contenedor (`.container`) se configura como un flex container utilizando `display: flex`. Además, se utiliza `flex-wrap: wrap` para permitir que las cajas se envuelvan a una nueva línea si no caben en el ancho del contenedor.
+
+Las cajas (`.box`) se establecen con un ancho y alto fijo, en este caso 200px, y se les aplica un margen para separarlas. El `box-sizing: border-box` se utiliza para que el ancho especificado incluya también el margen y el borde.
+
+Con esta configuración, las cajas se mostrarán una al lado de la otra hasta que no quepan más dentro del ancho del contenedor, momento en el cual se envolverán a una nueva línea.
+
+Puedes ajustar los valores de ancho, altura, margen y otros estilos según tus necesidades. Recuerda que este es solo un ejemplo básico, y puedes agregar estilos adicionales para personalizar el diseño de las cajas según tus preferencias.
+
+
+
+
+<html>
+<head>
+<title>Change SVG Color on Hover</title>
+<style>
+.svg-icon {
+width: 50px;
+height: 50px;
+}
+.svg-icon:hover {
+fill: #ff0000;
+transition: fill 0.3s ease;
+}
+</style>
+</head>
+<body>
+<svg class="svg-icon" viewBox="0 0 100 100">
+<circle cx="50" cy="50" r="40" fill="#000000"/>
+</svg>
+</body>
+</html>
+
+
+
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #333;
+}
+
+/* Encabezados */
+h1, h2, h3 {
+  color: #001f3f; /* Azul oscuro */
+}
+
+/* Botones */
+.button {
+  background-color: #0074D9; /* Azul brillante */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Fondo de secciones */
+.section {
+  background-color: #f8f8f8; /* Gris claro */
+  padding: 20px;
+}
+
+/* Enlaces */
+a {
+  color: #2ECC40; /* Verde oscuro */
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+https://gc-seguros.vercel.app/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-——–HTML——-
+. Estructura clara: Correcta indentanción. (Click derecho, Dar formato al documento)
+. Etiquetas Semanticas
+. Estructura basica: header, main, footer | section, nav, article | h1, h2, p, ul, ol, li
+. Que no haya exceso de div.
+. Que se respete el orden de las etiquetas h1, h2
+. No se repite el H1, y que esté presente una vez en todos los archivos.
+. No más Lorem Ipsum.
+. No BR para separar elementos. Solo se puede utilizar para dar saltos de linea en textos.
+. Prolijidad con los comentarios. No dejar código comentado.
+. 5 secciones como minimo.
+. Etiquetas de SEO en todas las secciones ( y title) y con contenido personalizado para cada seccion.
+. Alt de las imagenes: descriptivo y claro. Ejemplo: “Perro mordiendo señora en el banco”, no es valido aplicar valores como “Imagen 1, Imagen 2”.
+. Formularios:
+- Que no se repitan los IDS.
+- Respetar los atributos de los campos y de los label (for e ID)
+- Recordar incorporar atributo name a los inputs.
+- Siempre en etiqueta form
+- Uso correcto de cada type=“” para cada campo.
+. Correcto linkeo de todos los archivos.
+-—-CSS———
+. Nomeclatura clara de las clases, respetar metodología: BEM, camelCase o kebab-case
+. Unidades de medida bien implementadas. (Rem para tipografias, px/%/vw/vh elementos)
+. Código prolijo.
+. FlexBox es vida.
+. Buen reciclado de las clases - SUMA PUNTOS! (NO REPETIRSE A UNO MISMO)
+. Uso de Transition y Animaciones.
+-—- SASS ——
+SASS ES OBLIGATORIO!
+. Utilizar Partials. (Respetar estructura de carpetas: base, components, pages) EJEMPLO: _base.scss / _index.scss
+. En el archivo principal solo deben estar los @import. (main.scss)
+. Utilizar variables.
+. Utilizar nesting, utilizar selector &.
+. MAP, EXTEND Y MIXIN - SUMA PUNTOS!
+-—- FRAMEWORK (BOOTSTRAP) —–
+NO ES OBLIGATORIO.
+. ESTRUCTURA GRILLA BASICA: CONTAINER, ROW, COL.
+. No anidar containers a lo loco.
+. PERSONALIZACION DE LOS COMPONENTES! IMPORTANTISIMO. (colores, tamaños, tipografías, bordes, outline)
+-—- CARPETA y Archivos —–
+. Correcta nomeclatura de archivos y carpetas (SIN ESPACIOS, SIN TILDES, SIN CARACTERES ESPECIALES, SIN MAYÚSCULAS)
+. Correcta subdivisión de archivos en carpetas. (pages - css - img - scss - js)
+. HTML en subdirectorio.
+. Index en carpeta raíz.
+. Optimización de imagenes - MEJOR HECHO, MAS PUNTOS. (120kb - 70kb)
+-—- Git y GitHub —-
+. Web carga en el repositorio de GitHub.
+. GitHub pages activa.
+. Correctos mensajes en los commits.
+. No subir archivos que no corresponden a GitHub.
+. SE TOMA EN CUENTA LO PRESENTE EN LA RAMA MAIN.
+-—- SITIO WEB —–
+. OBVIAMENTE 100% RESPONSIVE. ( 375px - 1300px )
+. Navegación Clara.
+. Paleta basica, principalmente para la personalización de los componentes.
+. Imagenes apropiadas. (Object-fit)
+. Textos reales. NADA DE LOREM.
+. Ojo con las faltas de ortografía.
+. Aplicar tipografia externa (GOOGLE FONTS)
+. Jeraquización del contenido.
+. CONTENIDO EN TODAS LAS SECCIONES Y PERTINENTE A LA SECCION EN CUESTIÓN.
+. NO VALE REPETIR CONTENIDO - Personalización del contenido.
+. Los enlaces/botones sean minimamente interactivos.
+
+-—- ¿Cómo se presenta el trabajo? —-
+. Enlace a repositorio de GitHub ( ENLACE EN LA OPCION A DE LA ENTREGA )
+. ¡GITHUB PAGES ACTIVADO!
+. Web cargada en Netlify / Vercel / 000webhost.
+. Comentario con aclaraciones si es que corresponde.
+
+
+
+
+chatgpt
+Siendo una empresa de seguros de argentina, escribir un texto para una pagina web hablando sobre la transparencia
+
+
+Siendo una empresa de seguros de argentina, escribir un texto para una pagina web hablando sobre la responsabilidad
+
+Siendo una empresa de seguros de argentina, escribir un texto para una pagina web hablando sobre "QUIENES SOMOS"
+
+
+Siendo una empresa de seguros de argentina, escribir un texto breve para una pagina web sugiriendo "Empecemos a cotizar el seguro de tu auto"

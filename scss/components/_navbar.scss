@@ -1,0 +1,40 @@
+.navbar {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-fluid {
+    background-color: #08274e;
+}
+
+.nav-link {
+    color: lightgray;
+    padding-left: 5px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: black;
+    background-color: yellowgreen;
+}
+
+.active {
+    background-color: lightgray;
+    border-bottom: 3px solid blue;
+}
+
+.navbar-toggler {
+    background-color: lightgray;
+}
+
+.offcanvas-header {
+    background-color: #08274e;
+}
+
+.offcanvas-body {
+    background-color: #08274e;
+}
+
+.btn-close {
+    background-color: lightgray;
+}
