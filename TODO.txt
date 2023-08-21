@@ -258,3 +258,6 @@ Siendo una empresa de seguros de argentina, escribir un texto para una pagina we
 Siendo una empresa de seguros de argentina, escribir un texto breve para una pagina web sugiriendo "Empecemos a cotizar el seguro de tu auto"
 
 Siendo una empresa de seguros de argentina, escribir un texto breve de descripcion para utilizar en un enlace web
+
+
+ICONS CATALOG: https://fonts.google.com/icons
