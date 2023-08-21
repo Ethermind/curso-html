@@ -75,7 +75,7 @@ p {
 }
 
 .container-fluid {
-  background-color: #08274e;
+  background-image: linear-gradient(to right, #08274e, #0c3e7b);
 }
 
 .nav-link {
@@ -99,10 +99,6 @@ p {
 }
 
 .offcanvas-header {
-  background-color: #08274e;
-}
-
-.offcanvas-body {
   background-color: #08274e;
 }
 
