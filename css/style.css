@@ -1,5 +1,4 @@
 /* color:  */
-/* RESET */
 a {
   color: blue;
   text-decoration: none;
@@ -31,10 +30,6 @@ section {
 
 article {
   padding-bottom: 30px;
-}
-
-article p {
-  padding-bottom: 10px;
 }
 
 form {
@@ -83,7 +78,6 @@ p {
   padding-left: 5px;
   transition: 0.3s;
 }
-
 .nav-link:hover {
   color: black;
   background-color: yellowgreen;
@@ -129,8 +123,8 @@ p {
   grid-area: item2;
 }
 
-.item2 {
-  grid-area: item2;
+.item3 {
+  grid-area: item3;
 }
 
 .item4 {
@@ -152,7 +146,6 @@ p {
 .item8 {
   grid-area: item8;
 }
-
 .item8 p {
   text-align: center;
 }
@@ -195,17 +188,9 @@ svg {
   height: 16px;
   transition: 0.3s;
 }
-
 svg:hover {
   fill: white;
   transform: scale(1.2);
-}
-
-.a-forgot-password {
-  text-decoration: none;
-  text-align: right;
-  display: block;
-  padding-right: 10px;
 }
 
 .index-main-img {
@@ -230,13 +215,6 @@ svg:hover {
   height: 32px;
 }
 
-.img-virtual-room-header {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  display: none;
-}
-
 .custom-button {
   background-color: #0074D9;
   color: white;
@@ -246,10 +224,38 @@ svg:hover {
   cursor: pointer;
   transition: 0.3s;
 }
-
 .custom-button:hover {
   background-color: #015eaf;
   animation: buttonAnim 1.5s ease 0s 1 normal forwards;
+}
+
+.index-main-cards {
+  display: flex;
+  align-self: flex-start;
+}
+
+.index-main-card {
+  padding: 5px;
+  margin: 5px;
+  width: 50%;
+  display: inline-block;
+}
+
+#car-code,
+#contact-first-name,
+#contact-last-name,
+#contact-phone,
+#contact-email,
+#contact-text,
+#virtual-room-document-id,
+#virtual-room-password {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.img-logo {
+  height: 50px;
+  object-fit: cover;
 }
 
 .index-main-cards {
@@ -273,11 +279,9 @@ svg:hover {
   background-color: #f1f1f1;
   transition: 0.3s;
 }
-
 .info-card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
-
 .info-card p {
   padding: 10px;
   text-align: right;
@@ -294,7 +298,6 @@ svg:hover {
   padding: 5px;
   margin: 5px;
 }
-
 .about-card p {
   padding: 10px;
 }
@@ -311,21 +314,15 @@ svg:hover {
   width: 400px;
   flex-grow: 1;
 }
-
 .benefit-card p {
   padding: 10px;
 }
 
-#car-code,
-#contact-first-name,
-#contact-last-name,
-#contact-phone,
-#contact-email,
-#contact-text,
-#virtual-room-document-id,
-#virtual-room-password {
-  box-sizing: border-box;
+.img-virtual-room-header {
   width: 100%;
+  height: 150px;
+  object-fit: cover;
+  display: none;
 }
 
 .virtual-room-card {
@@ -343,11 +340,6 @@ svg:hover {
   display: flex;
 }
 
-.img-logo {
-  height: 50px;
-  object-fit: cover;
-}
-
 .virtual-room-red-button {
   background-color: #d93a3e;
   color: white;
@@ -356,10 +348,16 @@ svg:hover {
   padding-right: 10px;
   transition: 0.3s;
 }
-
 .virtual-room-red-button:hover {
   background-color: darkred;
   color: lightgray;
+}
+
+.a-forgot-password {
+  text-decoration: none;
+  text-align: right;
+  display: block;
+  padding-right: 10px;
 }
 
 .red-text {

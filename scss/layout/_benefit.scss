@@ -1,0 +1,15 @@
+.benefit-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.benefit-card {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    width: 400px;
+    flex-grow: 1;
+    p {
+        padding: 10px;
+    }
+}

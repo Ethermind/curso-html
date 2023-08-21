@@ -1,0 +1,64 @@
+.index-main-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.material-icon-index,
+.material-icon-about,
+.material-icon-benefit,
+.material-icon-virtual-room {
+    font-size: 64px;
+}
+
+.material-icon-done {
+    font-size: 24px;
+}
+
+.img-social-media {
+    width: 32px;
+    height: 32px;
+}
+
+.custom-button {
+    background-color: #0074D9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+        background-color: #015eaf;
+        animation: buttonAnim 1.5s ease 0s 1 normal forwards;
+    }
+}
+
+.index-main-cards {
+    display: flex;
+    align-self: flex-start;
+}
+
+.index-main-card {
+    padding: 5px;
+    margin: 5px;
+    width: 50%;
+    display: inline-block;
+}
+
+#car-code,
+#contact-first-name,
+#contact-last-name,
+#contact-phone,
+#contact-email,
+#contact-text,
+#virtual-room-document-id,
+#virtual-room-password {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.img-logo {
+    height: 50px;
+    object-fit: cover;
+}

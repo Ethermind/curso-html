@@ -1,0 +1,14 @@
+.about-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.about-card {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    p {
+        padding: 10px;
+    }
+}
