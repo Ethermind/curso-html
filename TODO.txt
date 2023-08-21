@@ -11,7 +11,6 @@ mejorar la pagina de about .. dejarla como la de beneficios y que la pagina de b
 utilizar bootstrap para los forms
 floater para subir..
 paleta de colores
-@mixin @extend
 -——–HTML——-
 . No BR para separar elementos. Solo se puede utilizar para dar saltos de linea en textos.
 . Etiquetas de SEO en todas las secciones ( y title) y con contenido personalizado para cada seccion.
@@ -20,25 +19,11 @@ paleta de colores
 . Unidades de medida bien implementadas. (Rem para tipografias, px/%/vw/vh elementos)
 . Buen reciclado de las clases - SUMA PUNTOS! (NO REPETIRSE A UNO MISMO)
 -—- SASS ——
-SASS ES OBLIGATORIO!
-. Utilizar Partials. (Respetar estructura de carpetas: base, components, pages) EJEMPLO: _base.scss / _index.scss
-. En el archivo principal solo deben estar los @import. (main.scss)
-. Utilizar variables.
-. Utilizar nesting, utilizar selector &.
 . MAP, EXTEND Y MIXIN - SUMA PUNTOS!
 -—- SITIO WEB —–
-. OBVIAMENTE 100% RESPONSIVE. ( 375px - 1300px )
 . Paleta basica, principalmente para la personalización de los componentes.
-. Jeraquización del contenido.
 
-@mixin shadow($color) { box-shadow: 0 4px 8px $color; }
-
-Y luego usarlo en cada selector que quieras aplicar el efecto:
-
-.material-icon-index { @include shadow(blue); }
-
-
-
+VER SSN - en mobile se ve feo
 
 chatgpt
 Siendo una empresa de seguros de argentina, escribir un texto para una pagina web hablando sobre la transparencia

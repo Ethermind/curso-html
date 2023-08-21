@@ -1,10 +1,11 @@
+/* BENEFIT LAYOUT */
 .benefit-cards {
     display: flex;
     flex-wrap: wrap;
 }
 
 .benefit-card {
-    border: 1px solid black;
+    @extend black-border;
     padding: $padding-size-small;
     margin: 5px;
     width: 400px;

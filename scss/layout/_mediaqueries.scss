@@ -1,6 +1,7 @@
+/* MEDIAQUERIES LAYOUT */
 @media only screen and (max-width: 768px) {
     .offcanvas-body {
-        background-color: #08274e;
+        background-color: $navbar-main-background-color;
     }
 
     .index-main-cards {
@@ -44,6 +45,12 @@
 
     .img-virtual-room-header {
         display: inline;
+    }
+
+    @for $i from 0 through 1 {
+        .item#{$i} {
+            width: 5px;
+        }
     }
 }
 

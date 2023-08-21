@@ -1,3 +1,4 @@
+/* ABOUT LAYOUT */
 .about-cards {
     display: flex;
     flex-direction: row;
@@ -5,7 +6,7 @@
 }
 
 .about-card {
-    border: 1px solid black;
+    @extend black-border;
     padding: $padding-size-small;
     margin: 5px;
     p {

@@ -1,35 +1,36 @@
+/* NAVBAR */
 .navbar {
     padding: $padding-size-none;
     margin: 0px;
 }
 
 .container-fluid {
-    background-image: linear-gradient(to right, #08274e, #0c3e7b);
+    background-image: linear-gradient(to right, $navbar-main-background-color, $navbar-secondary-background-color);
 }
 
 .nav-link {
-    color: lightgray;
+    color: $lightgray-color;
     padding-left: $padding-size-small;
-    transition: 0.3s;
+    transition: $transition-time;
     &:hover {
-        color: black;
-        background-color: yellowgreen;
+        color: $black-color;
+        background-color: $yellowgreen-color;
     }
 }
 
 .active {
-    background-color: lightgray;
-    border-bottom: 3px solid blue;
+    background-color: $lightgray-color;
+    border-bottom: 3px solid $blue-color;
 }
 
 .navbar-toggler {
-    background-color: lightgray;
+    background-color: $lightgray-color;
 }
 
 .offcanvas-header {
-    background-color: #08274e;
+    background-color: $navbar-main-background-color;
 }
 
 .btn-close {
-    background-color: lightgray;
+    background-color: $lightgray-color;
 }

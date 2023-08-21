@@ -1,9 +1,6 @@
-/* EJEMPLOOOOOOO */
-@mixin flex($direction, $justify, $gap){
-    display: flex;
-    flex-direction: $direction;
-    justify-content: $justify;
-    gap: $gap;
+/* UTILITIES */
+black-border {
+    border: 1px solid $black-color;
 }
 
 @mixin shadow($transparency) {

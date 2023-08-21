@@ -1,3 +1,4 @@
+/* FOOTER */
 .grid-section {
     padding: $padding-size-none;
 }
@@ -10,7 +11,7 @@
 @for $i from 0 through 8 {
     .item#{$i} {
         grid-area: item#{$i};
-        @if $i == 0 or $i == 1 {
+        @if index((0, 1), $i) {
             width: 50px;
         }
         @if $i == 8 {

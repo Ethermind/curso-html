@@ -1,25 +1,26 @@
+/* RESET */
 a {
-    color: blue;
+    color: $blue-color;
     text-decoration: none;
 }
 
 h1 {
-    color: darkblue;
+    color: $darkblue-color;
     padding-bottom: $padding-size-bigger;
 }
 
 h2 {
-    color:rgb(3, 128, 252);
+    color: $lightblue-color;
     padding-bottom: $padding-size-normal;
 }
 
 h3 {
     font-size: 21px;
-    color: rgb(75, 75, 75);
+    color: $darkgray-color;
 }
 
 h4 {
-    color: white;
+    color: $white-color;
     font-size: 30px;
 }
 
@@ -32,7 +33,7 @@ article {
 }
 
 form {
-    border: 1px solid black;
+    @extend black-border;
     padding: $padding-size-small;
 }
 
@@ -41,7 +42,7 @@ form p {
 }
 
 input {
-    border: 1px solid black;
+    @extend black-border;
     padding: $padding-size-small;
     font-size: 15px;
 }
