@@ -259,5 +259,7 @@ Siendo una empresa de seguros de argentina, escribir un texto breve para una pag
 
 Siendo una empresa de seguros de argentina, escribir un texto breve de descripcion para utilizar en un enlace web
 
+para una empresa de seguros de argentina que tiene una pagina de seguros armar una lista de palabras claves para utilizar en el meta keywords de html
+
 
 ICONS CATALOG: https://fonts.google.com/icons
