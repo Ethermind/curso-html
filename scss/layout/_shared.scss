@@ -10,15 +10,12 @@
 .material-icon-benefit,
 .material-icon-virtual-room {
     font-size: 64px;
+    color: $darkgray-color;
+    @include shadow(0.1)
 }
 
 .material-icon-done {
     font-size: 24px;
-}
-
-.img-social-media {
-    width: 32px;
-    height: 32px;
 }
 
 .custom-button {

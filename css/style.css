@@ -76,7 +76,7 @@ black-border, .benefit-card, .about-card, form, input {
 }
 
 .container-fluid {
-  background-image: linear-gradient(to right, #08274e, #0c3e7b);
+  background-image: linear-gradient(to right, #08274e, #0f4a93);
 }
 
 .nav-link {
@@ -212,15 +212,12 @@ svg:hover {
 .material-icon-benefit,
 .material-icon-virtual-room {
   font-size: 64px;
+  color: rgb(75, 75, 75);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .material-icon-done {
   font-size: 24px;
-}
-
-.img-social-media {
-  width: 32px;
-  height: 32px;
 }
 
 .custom-button {
