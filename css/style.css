@@ -396,10 +396,10 @@ svg:hover {
     display: inline;
   }
   .item0 {
-    width: 5px;
+    width: 0px;
   }
   .item1 {
-    width: 5px;
+    width: 0px;
   }
 }
 /* Used for main page only */
