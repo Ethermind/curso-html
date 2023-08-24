@@ -91,7 +91,7 @@ black-border, .benefit-card, .about-card, form, input {
 
 .active {
   background-color: lightgray;
-  border-bottom: 3px solid blue;
+  border-bottom: 3px solid rgb(3, 128, 252);
 }
 
 .navbar-toggler {
