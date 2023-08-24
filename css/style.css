@@ -263,6 +263,24 @@ svg:hover {
   object-fit: cover;
 }
 
+/* FLOATING ICON */
+.icon-top {
+  font-family: FontAwesome;
+  font-size: 30px;
+  color: white;
+  background-color: #0074D9;
+  opacity: 0.5;
+  padding: 10px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  visibility: hidden;
+}
+.icon-top:hover {
+  background-color: #015eaf;
+}
+
 /* INDEX LAYOUT */
 .info-card {
   padding: 5px;
