@@ -277,6 +277,7 @@ svg:hover {
   right: 10px;
   visibility: hidden;
   transition: 1s;
+  line-height: normal;
 }
 .icon-top:hover {
   background-color: #004888;
