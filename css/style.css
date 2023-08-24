@@ -2,6 +2,10 @@
 /* COLORS */
 /* TRANSITION */
 /* RESET */
+body {
+  background-color: #f1f1f1;
+}
+
 a {
   color: blue;
   text-decoration: none;
