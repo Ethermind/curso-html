@@ -276,7 +276,7 @@ svg:hover {
   bottom: 10px;
   right: 10px;
   visibility: hidden;
-  transition: 1s;
+  transition: 0.6s;
   line-height: normal;
 }
 .icon-top:hover {
