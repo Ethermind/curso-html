@@ -1,3 +1,21 @@
+Repositorio:
+https://github.com/Ethermind/EntregaFinal-LuisCapra
+
+Pages:
+https://ethermind.github.io/EntregaFinal-LuisCapra
+
+Website:
+https://gc-seguros.vercel.app
+
+
+
+
+
+
+
+
+
+
 ortografia
 contenido real
 corregir los h

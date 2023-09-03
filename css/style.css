@@ -172,12 +172,12 @@ black-border, .benefit-card, .about-card, form, input {
 .grid-container div {
   background-color: white;
   padding: 10px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .footer-highlight-text {
   color: #036e9c;
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -400,7 +400,13 @@ svg:hover {
     height: 150px;
   }
   .footer-text {
-    font-size: x-small;
+    font-size: 13px;
+  }
+  .grid-container div {
+    font-size: 12px;
+  }
+  .footer-highlight-text {
+    font-size: 12px;
   }
   .grid-container div {
     text-align: start;
