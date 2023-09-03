@@ -1,3 +1,11 @@
+ortografia
+contenido real
+corregir los h
+mejorar responsive
+min-height: nnnpx;
+max-height: 100%
+
+
 Links utiles:
 
 https://gc-seguros.vercel.app/

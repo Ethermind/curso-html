@@ -11,7 +11,6 @@
 .material-icon-virtual-room {
     font-size: 64px;
     color: $darkgray-color;
-    @include shadow(0.1)
 }
 
 .material-icon-done {
@@ -74,7 +73,6 @@
     bottom: 10px;
     right: 10px;
     visibility: hidden;
-    transition: $transition-time-long;
     line-height: normal;
     &:hover {
         background-color: $lightblue-button-color-obscurest;

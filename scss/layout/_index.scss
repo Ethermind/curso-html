@@ -4,11 +4,11 @@
     margin: 5px;
     width: 200px;
     display: inline-block;
-    @include shadow(0.2);
-    background-color: $lightengray-color;
+    @include shadow(0.1);
+    background-color: $white-color;
     transition: $transition-time;
     &:hover {
-        @include shadow(0.4);
+        @include shadow(0.2);
     }
     p {
         padding: $padding-size-normal;
