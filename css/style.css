@@ -172,12 +172,12 @@ black-border, .benefit-card, .about-card, form, input {
 .grid-container div {
   background-color: white;
   padding: 10px;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .footer-highlight-text {
   color: #036e9c;
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
 }
 

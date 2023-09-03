@@ -1,5 +1,4 @@
 /* RESET */
-
 body {
     background-color: $lightengray-color;
 }
@@ -15,34 +14,19 @@ h1 {
 }
 
 h2 {
-    color: $lightblue-color; // $darkblue-color;
+    color: $lightblue-color;
     padding-bottom: $padding-size-normal;
 }
-
-// h3 {
-//     color: $lightblue-color;
-//     padding-bottom: $padding-size-normal;
-// }
 
 h3 {
     font-size: 21px;
     color: $darkgray-color;
 }
 
-// h4 {
-//     font-size: 21px;
-//     color: $darkgray-color;
-// }
-
 h4 {
     color: $white-color;
     font-size: 30px;
 }
-
-// h5 { // DEBERIA SACAR ESTE TAG PORQUE ESTA MAL QUE EL BOTON SE CREE CON UN H..
-//     color: $white-color;
-//     font-size: 30px;
-// }
 
 section {
     padding: $padding-size-big;
